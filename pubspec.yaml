@@ -1,0 +1,53 @@
+name: sosdoctorsystem
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_localizations:
+    sdk: flutter  
+    
+  cupertino_icons: ^1.0.2
+  http: 
+  shared_preferences:
+  image_picker:
+  date_format: ^2.0.6
+  flutter_admin_scaffold: ^1.1.1
+  date_time_picker: ^2.1.0
+  flutter_svg: ^1.0.3
+  open_file: ^3.2.1
+  path_provider: ^2.0.11
+  printing: ^5.9.1
+  pdf: ^3.8.1
+  advance_pdf_viewer: any
+  share_extend: ^1.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/default.jpg
+    - assets/images/svg/
+
+  fonts:
+    - family: Worksans
+      fonts:
+        - asset: assets/fonts/WorkSans.ttf
